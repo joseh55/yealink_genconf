@@ -1,0 +1,270 @@
+@font-face {
+   font-family: Ubuntu; 
+   src: url('../extra/ubuntu.ttf');
+} 
+
+* {
+    font-family: Ubuntu;
+}
+
+body,td,th {
+	font-family: Ubuntu;
+	font-size:12px;
+}
+
+body{margin:0px; background-color:#E6E6FA;}
+
+*{margin:0px}
+
+h1 {
+	font-size:18pt;
+	color:#000000;
+}
+
+h2 {
+	font-size:14pt;
+	color:#000000;	
+}
+
+h3 {
+	font-size:10pt;
+
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: bold;
+}
+
+#languages {
+position: absolute;
+right: 10px;
+top: 5px;
+}
+
+#languages img {
+margin: 3px;
+border: 0px;
+}
+
+#help {
+position: absolute;
+left: 10px;
+top: 5px;
+}
+
+#help img {
+margin: 3px;
+border: 0px;
+}
+
+
+#OuterFrmDl{
+float:inherit;
+margin:0px auto auto auto;
+width:100%;
+border-top:1px solid #3084E8;
+border-right:none;
+border-bottom:1px solid #3084E8;
+border-left:none;
+}
+
+#FooterBxDL{
+clear:left;
+margin:5px auto auto auto;
+width:100%;
+color:#000000;
+text-align:center;
+}
+
+#FooterBxDL a:link, #FooterBxDL a:visited, #FooterBxDL a:active {
+text-decoration:none;
+color:#0000CC;
+}
+
+#FooterBxDL a:hover {
+text-decoration:underline;
+color:#CC0043;
+}
+
+#HeadSectionDl{
+float:inherit;
+margin:0px;
+width:100%;
+height:90px;
+background-color:#FFFFFF;
+border-bottom:1px solid #3084E8;
+position: relative;
+}
+
+#TopHzNavSectionDl{
+clear:left;
+margin:0px;
+width:100%;
+height:25px;
+background-color:#AACAF1;
+border-bottom:#3084E8 1px solid;
+}
+
+#TopHzNavSectionDl a:link, #TopHzNavSectionDl a:visited, #TopHzNavSectionDl a:active {
+text-decoration:none;
+color:#0000CC;
+}
+
+#TopHzNavSectionDl a:hover {
+text-decoration:underline;
+color:#CC0043;
+}
+
+#CntSectionDlDiv{
+clear:left;
+margin:0px;
+width:100%;
+border-bottom:1px solid #3084E8;
+}
+
+#CntSectionDlTbl{
+border-collapse:collapse;
+width:100%;
+}
+
+#CntSectionDlTbl .LeftSideBar{
+width:180px;
+background-color:#DDEEDD;
+border-right:1px solid #3D8F06;
+color:#000000;
+text-align:left;
+}
+
+#CntSectionDlTbl .LeftSideBar a:link, #CntSectionDlTbl .LeftSideBar a:visited, #CntSectionDlTbl .LeftSideBar a:active {
+text-decoration:none;
+color:#0000CC;
+}
+
+#CntSectionDlTbl .LeftSideBar a:hover {
+text-decoration:underline;
+color:#CC0043;
+}
+
+
+#CntSectionDlTbl .ContentsArea{
+background-color:#FFFFFF;
+color:#000000;
+text-align:justify;
+}
+
+#CntSectionDlTbl .ContentsArea a:link, #CntSectionDlTbl .ContentsArea a:visited, 
+#CntSectionDlTbl .ContentsArea a:active {
+text-decoration:none;
+color:#0000CC;
+}
+
+#CntSectionDlTbl .ContentsArea a:hover {
+text-decoration:underline;
+color:#CC0043;
+}
+
+
+#CntSectionDlTbl .RightSideBar{
+width:180px;
+background-color:#DDEEDD;
+border-left:1px solid #3D8F06;
+color:#000000;
+text-align:left;
+}
+
+
+#CntSectionDlTbl .RightSideBar a:link, #CntSectionDlTbl .RightSideBar a:visited, #CntSectionDlTbl .RightSideBar a:active {
+text-decoration:none;
+color:#0000CC;
+}
+
+
+#CntSectionDlTbl .RightSideBar a:hover {
+text-decoration:underline;
+color:#CC0043;
+}
+
+#BottomHzNavSectionDl{
+clear:left;
+margin:0px;
+width:100%;
+height:25px;
+background-color:#AACAF1;
+}
+
+#BottomHzNavSectionDl a:link, #BottomHzNavSectionDl a:visited, #BottomHzNavSectionDl 
+a:active {
+text-decoration:none;
+color:#0000CC;
+}
+
+#BottomHzNavSectionDl a:hover {
+text-decoration:underline;
+color:#CC0043;
+}
+
+.ContentBoxDl{padding:5px;}
+
+
+/* below is extra style for title section */
+
+#WSTitleDL{
+float:left;
+width:50%;
+margin-top:20px;
+margin-left:20px;
+font-size:18pt;
+font-weight:bold;
+color:#003300;
+}
+
+#WSubTitleDL{
+width:50%;
+margin-top:0px;
+margin-left:20px;
+font-size:10pt;
+font-weight:bold;
+color:#666666;
+}
+
+
+
+
+
+/* below is extra style for horizontal sample navigation links */
+
+.HzNavCntDL{font-weight:bold;} 
+.HzNavCntDL ul{
+padding:5px;
+margin-left: 0px;
+}
+.HzNavCntDL ul li{
+display: inline;
+}
+.HzNavCntDL ul li a{
+float: left;
+padding: 0px 9px 0px 9px;
+}
+
+/* below is extra style for Vertical sample navigation links */
+
+.VtNavCntDL{font-weight:bold;} 
+.VtNavCntDL ul{
+margin: 10px 0px 0px 0px;
+padding:0px;
+list-style-type:none;
+}
+.VtNavCntDL li{
+width:100%;
+}
+.VtNavCntDL a{
+display: block;
+padding: 3px 3px 3px 10px;
+}
+.notice {
+background-color: #f2faf2;
+border: 1px solid #cdcdcd;
+
+padding: 5px;
+margin: 5px;
+}
+
