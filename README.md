@@ -2,7 +2,9 @@
 
 Yealink GenConf its a web tool for generate MAC oriented config files for autoprovision of Yealink IP phones
 
-DEMO: https://yealink.marcano.net.ve
+Demo and Visual documentation:
+
+https://yealink.marcano.net.ve
 
 REQUERIMENTS:
 
