@@ -4,7 +4,7 @@ Yealink GenConf its a web tool for generate MAC oriented config files for autopr
 
 Demo and Visual documentation:
 
-https://yealink.marcano.net.ve
+http://yealink.marcano.net.ve/index.php
 
 REQUERIMENTS:
 
